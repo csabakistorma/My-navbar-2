@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  padding: 1rem;
+  display: inline-block;
+  border: 1px solid grey;
+  margin: 1rem 0 1rem 1rem;
+  line-height: 1.6rem;
+}
+
+header i {
+  display: inline-block;
+  float: right;
+  font-size: 2.3rem;
+  margin-right: 5%;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.toggle-btn-hidden {
+  color: white;
+}
+
+main, footer {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  height: 100vh;
+  width: 50vw;
+  background-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 0;
+  left: 25vw;
+  display: none;
+  opacity: .9;
+}
+
+.navShow {
+  display: block;
+}
+
+@media(min-width: 1024px) {
+  nav {
+    width: 26vw;
+    left: 37vw;
+  }
+}
+
+nav ul {
+  margin-top: 4rem;
+}
+
+nav li {
+  list-style-type: none;
+  text-align: center;
+  line-height: 2.5rem;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#cancel {
+  font-size: 1.75rem;
+}
+
+main {
+  background-color: lightblue;
+  height: 170vh;
+}
+
+footer {
+  background-color: yellow;
+}
